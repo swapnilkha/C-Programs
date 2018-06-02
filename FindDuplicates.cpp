@@ -1,7 +1,6 @@
 /* Given a vector of ints, some of which are duplicates, write a function that returns all the duplicate
 elements in the vector in the form of vector<int>. Must be done on O(n) average time. */
 
-
 #include <iostream>
 #include <vector>
 #include <unordered_map>
