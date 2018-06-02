@@ -12,7 +12,7 @@ vector<int> findDuplicates(vector<int> v)
 	unordered_map<int,int> m; //unordered map lookup and find is O(1) average time.
 	unordered_map<int,int>:: iterator itr;
 
-  	#traverse the vector 
+  	//traverse the vector 
 	for(int i = 0; i < v.size(); i++)
 	{
     		//if elem in vector is in the map, increment the key's value by 1, else set it to 0
